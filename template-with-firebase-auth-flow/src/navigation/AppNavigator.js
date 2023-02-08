@@ -17,13 +17,13 @@ import Loading from "../screens/utils/Loading";
 
 // Better put your these secret keys in .env file
 const firebaseConfig = {
-  apiKey: "process.env.API_KEY",
-  authDomain: "process.env.AUTH_DOMAIN",
-  databaseURL: "process.env.DATABASE_URL",
-  projectId: "process.env.PROJECT_ID",
-  storageBucket: "process.env.STORAGE_BUCKET",
-  messagingSenderId: "process.env.MESSAGING_SENDER_ID",
-  appId: "process.env.APP_ID",
+  apiKey: "AIzaSyBHjoCFFgTA1wooyoWpDHXdg5cJs09841I",
+  authDomain: "taasa-eb664.firebaseapp.com",
+  databaseURL: "https://taasa-eb664-default-rtdb.firebaseio.com",
+  projectId: "taasa-eb664",
+  storageBucket: "taasa-eb664.appspot.com",
+  messagingSenderId: "719848235915",
+  appId: "1:719848235915:web:503ecada429e2d7e95858e",
 };
 if (getApps().length === 0) {
   initializeApp(firebaseConfig);
